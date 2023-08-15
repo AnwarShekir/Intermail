@@ -31,7 +31,7 @@ namespace Intermail.Services
                 throw new Exception("Error at external service");
             }
 
-            _logger.Error($"New Ok Reponse: CusomterId: {request.CustomerId} ErrorCode: {response.StatusCode}");
+            _logger.Info($"New Ok Reponse: CusomterId: {request.CustomerId} ErrorCode: {response.StatusCode}");
 
         }
     }
