@@ -11,5 +11,6 @@ namespace Intermail.Dto
 			Amount = amount;
 		}
 	}
+
 }
 
